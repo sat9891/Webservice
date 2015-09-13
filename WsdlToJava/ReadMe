@@ -1,0 +1,27 @@
+Wsdl to Java
+
+Create new Java Project
+Right Click on Java Project new->other->web service client
+
+make it deploy level and choose client- wsdl to java
+
+test facility -> Web service explorer
+
+
+require library 
+
+axis.jar
+commons-discovery-0.2.jar
+jaxrpc.jar
+saaj.jar
+javax.wsdl_1.5.1v201012040544.jar
+org.apache.commons.logging_1.1.1.v201101211
+
+
+Other way to create wsdl to java
+
+open cmd and type
+
+wsimport src -s -keep -verbose http://localhost:9191/party?wsdl
+
+
