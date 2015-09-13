@@ -1,0 +1,19 @@
+create Simple Webservice using Java Metro Polling Concept
+
+step1:Create a  interface and one method and annotate the interface with @Webservice
+step2:Create a implementor Class which implement a above interface and annotate with @Websevice and provide the endpoind
+step3:create a Main class which publish the webservice
+
+
+after publishing visit the endpoint url with >wsdl
+
+http://localhost:9191/party?wsdl
+
+Soap Webservice is done 
+
+
+Open Soap Ui creare new soapui project ..put the http://localhost:9191/party?wsdl
+
+in display request pass some paramenter and test
+
+
